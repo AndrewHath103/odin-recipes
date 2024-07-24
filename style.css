@@ -2,9 +2,20 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin: 10px;
+    padding: 5px;
+}
+
+html {
+    background-color: rgba(0, 191, 255, 0.438);
+}
+
 .section {
     text-align: center;
     outline: auto;
+    padding: 5px;
+    margin: 10px;
 }
 
 .centered {
@@ -15,12 +26,18 @@ h1 {
     display: inline-block;
     text-align: left;
     list-style-position: inside;
+    margin: auto;
 }
 
 ol {
     display: inline-block;
     text-align: left;
     list-style-position: inside;
+    margin: auto;
+}
+
+li {
+    padding: 5px;
 }
 
 .button {
